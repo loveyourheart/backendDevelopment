@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.backenddevelopment.mapper.CollectMapper">
+    <insert id="addCollectItem" parameterType="com.example.backenddevelopment.daoimp.Collect"
+            >
+        INSERT INTO arctile(id,add_data,context,poster,title) VALUES (#{id},#{add_data},#{context}
+        ,#{poster},#{title})
+    </insert>
+    <select id="getAllCollect" parameterType="int" resultType="com.example.backenddevelopment.daoimp.Collect">
+        SELECT * FROM arctile WHERE id=#{id}
+    </select>
+    <delete id="deleteCollectItem" parameterType="int">
+        DELETE FROM arctile WHERE aid=#{aid}
+    </delete>
+</mapper>
