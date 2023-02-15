@@ -1,9 +1,7 @@
 package com.example.backenddevelopment.service;
 
-import com.alibaba.druid.support.ibatis.SqlMapClientImplWrapper;
-import com.example.backenddevelopment.daoimp.Collect;
-import com.example.backenddevelopment.mapper.CollectMapper;
-import com.example.backenddevelopment.mapper.UserMapper;
+import com.example.backenddevelopment.domain.impl.Collect;
+import com.example.backenddevelopment.dao.mapper.CollectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

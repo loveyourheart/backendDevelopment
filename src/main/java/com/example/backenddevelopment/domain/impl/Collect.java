@@ -1,4 +1,6 @@
-package com.example.backenddevelopment.daoimp;
+package com.example.backenddevelopment.domain.impl;
+
+import java.io.File;
 
 public class Collect {
     private Integer aid;

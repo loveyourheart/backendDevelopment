@@ -1,9 +1,8 @@
-package com.example.backenddevelopment.mapper;
+package com.example.backenddevelopment.dao.mapper;
 
-import com.example.backenddevelopment.daoimp.User;
+import com.example.backenddevelopment.domain.impl.User;
 import org.apache.ibatis.annotations.Mapper;
 
-import javax.jws.soap.SOAPBinding;
 @Mapper
 public interface UserMapper {
     int addUser(User user);

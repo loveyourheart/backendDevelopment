@@ -1,4 +1,4 @@
-package com.example.backenddevelopment.daoimp;
+package com.example.backenddevelopment.domain.impl;
 
 public class User {
     private Integer id;

@@ -1,7 +1,6 @@
-package com.example.backenddevelopment.mapper;
+package com.example.backenddevelopment.dao.mapper;
 
-import com.example.backenddevelopment.daoimp.Collect;
-import com.example.backenddevelopment.daoimp.User;
+import com.example.backenddevelopment.domain.impl.Collect;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

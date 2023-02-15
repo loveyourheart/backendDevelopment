@@ -1,11 +1,9 @@
 package com.example.backenddevelopment.service;
 
-import com.example.backenddevelopment.daoimp.User;
-import com.example.backenddevelopment.mapper.UserMapper;
+import com.example.backenddevelopment.domain.impl.User;
+import com.example.backenddevelopment.dao.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import javax.jws.soap.SOAPBinding;
 
 @Service
 public class UserService {

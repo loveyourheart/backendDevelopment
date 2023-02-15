@@ -1,6 +1,6 @@
 package com.example.backenddevelopment.controller;
 
-import com.example.backenddevelopment.daoimp.User;
+import com.example.backenddevelopment.domain.impl.User;
 import com.example.backenddevelopment.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
